@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Cocktails:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Cocktails_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Cocktails/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Cocktails" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="postgresql-42.2.23" />
+          <element id="library" level="project" name="commons-io-2.11.0" />
+          <element id="library" level="project" name="commons-fileupload-1.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
